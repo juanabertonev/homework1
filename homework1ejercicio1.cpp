@@ -23,18 +23,6 @@ void creamatriznxn(int n) {
 
 // b. Proveer un código que imprima el contenido de la matriz, utilizando un único ciclo for, desde el mayor valor al menor, es decir, para el ejemplo de Para 𝑀2:
 
-void contenidomatriz(int n){
-    int temp = n-1;
-    int valor = n*n;
-    while(temp>=0){
-        for(int i=n-1; i>=0; i--){
-            std::cout << "[" << temp << "]" << "[" << i << "]" << "=" << valor << " ";
-            std::cout << std::endl;
-            valor--;
-        }
-        temp--;
-    }
-}
 // sin while y 1 solo for
 // inicializamos valor con el numero maximo qu vendria a ser nxn
 // usamos un unico for que va desde 0 a nxn(abarca todos los valores de la matriz)
